@@ -11,7 +11,7 @@ totalscore=0
 
 for i in range (0, numCom-1):
     for i in range (0, numJudges):
-        score = int (input('Give a score between 0 and 10..'))
+        score = int (input("Give a score between 0 and 10.."))
         totalscore += score
     averageScore = totalscore/numJudges
     print("Score for competitor is ",averageScore)
